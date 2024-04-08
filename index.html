@@ -1,19 +1,477 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Refugee aid</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Refugee Aid</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Roboto:wght@300;400;500;700&family=Oswald:wght@600&display=swap"
+    rel="stylesheet">
 </head>
+
 <body>
-    <h3>Refugee Aid</h3>
-    <div class="main">
-        <header>
-            .
-        </header>
-        <h2>THIS IS DIV</h2>
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <h1>
+        <a href="#" class="logo">Refugee Aid</a>
+      </h1>
+
+      
+
+      <button class="nav-open-btn" aria-label="Open Menu" data-nav-open-btn>
+        <ion-icon name="menu-outline"></ion-icon>
+      </button>
+
+      <nav class="navbar" data-navbar>
+
+        <button class="nav-close-btn" aria-label="Close Menu" data-nav-close-btn>
+          <ion-icon name="close-outline"></ion-icon>
+        </button>
+
+        <a href="#" class="logo">Refugee Aid</a>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#home" class="navbar-link" data-nav-link>
+              <span>Home</span>
+
+              <ion-icon name="chevron-forward-outline" aria-hidden="true"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#about" class="navbar-link" data-nav-link>
+              <span>About</span>
+
+              <ion-icon name="chevron-forward-outline" aria-hidden="true"></ion-icon>
+            </a>
+          </li>
+
+         
+
+          
+
+          <li>
+            <a href="#" class="navbar-link" data-nav-link>
+              <span>Contact</span>
+
+              <ion-icon name="chevron-forward-outline" aria-hidden="true"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <div class="header-action">
+
+        
+
+        <button class="btn btn-primary">
+          <span>Donation</span>
+
+          <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+        </button>
+
+      </div>
+
     </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="hero" id="home">
+        <div class="container">
+
+          
+
+          <h2 class="h1 hero-title">
+            Give a kind help to ones in need</strong>
+          </h2>
+
+          <p class="hero-text">
+            Refugee Aid involes developing solutions to support displaced populations with essentials like shelter , food , healthcare,education and legal assistance aiming for both immediate relief and long term integration
+          </p>
+
+          <button class="btn btn-primary">
+            <span>Donation</span>
+
+            <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+          </button>
+
+        </div>
+      </section>
+
+
+      
+
+
+
+
+
+      <!-- 
+        - #SERVICE
+      -->
+
+      
+
+
+
+
+      <!-- 
+        - #DONATE
+      -->
+
+      <section class="section donate" id="donate">
+        <div class="container">
+
+          <ul class="donate-list">
+
+            <li>
+              <div class="donate-card">
+
+                <figure class="card-banner">
+                  <img src="./assets/ukraine.jpg" width="520" height="325" loading="lazy" alt="Elephant"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="progress-wrapper">
+                    <p class="progress-text">
+                      <span>Raised</span>
+
+                      <data value="256">$256</data>
+                    </p>
+
+                    <data class="progress-value" value="83">83%</data>
+                  </div>
+
+                  <div class="progress-box">
+                    <div class="progress"></div>
+                  </div>
+
+                  <h3 class="h3 card-title">Raise hands to help the unwavering children</h3>
+
+                  <div class="card-wrapper">
+
+                    <p class="card-wrapper-text">
+                      <span>Goal</span>
+
+                      <data class="green" value="34562">$34562</data>
+                    </p>
+
+                    <p class="card-wrapper-text">
+                      <span>Raise</span>
+
+                      <data class="yellow" value="562">$562</data>
+                    </p>
+
+                    <p class="card-wrapper-text">
+                      <span>To Go</span>
+
+                      <data class="cyan" value="864">$864</data>
+                    </p>
+
+                  </div>
+
+                  <button class="btn btn-secondary">
+                    <span>Donation</span>
+
+                    <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+                  </button>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="donate-card">
+
+                <figure class="card-banner">
+                  <img src="./assets/gaza.jpg" width="520" height="325" loading="lazy" alt="Elephant"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="progress-wrapper">
+                    <p class="progress-text">
+                      <span>Raised</span>
+
+                      <data value="256">$256</data>
+                    </p>
+
+                    <data class="progress-value" value="83">83%</data>
+                  </div>
+
+                  <div class="progress-box">
+                    <div class="progress"></div>
+                  </div>
+
+                  <h3 class="h3 card-title">Raise Hand To Save Those pure souls</h3>
+
+                  <div class="card-wrapper">
+
+                    <p class="card-wrapper-text">
+                      <span>Goal</span>
+
+                      <data class="green" value="34562">$34562</data>
+                    </p>
+
+                    <p class="card-wrapper-text">
+                      <span>Raise</span>
+
+                      <data class="yellow" value="562">$562</data>
+                    </p>
+
+                    <p class="card-wrapper-text">
+                      <span>To Go</span>
+
+                      <data class="cyan" value="864">$864</data>
+                    </p>
+
+                  </div>
+
+                  <button class="btn btn-secondary">
+                    <span>Donation</span>
+
+                    <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+                  </button>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="donate-card">
+
+                <figure class="card-banner">
+                  <img src="./assets/palestine.jpg" width="520" height="325" loading="lazy" alt="Elephant"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="progress-wrapper">
+                    <p class="progress-text">
+                      <span>Raised</span>
+
+                      <data value="256">$256</data>
+                    </p>
+
+                    <data class="progress-value" value="83">83%</data>
+                  </div>
+
+                  <div class="progress-box">
+                    <div class="progress"></div>
+                  </div>
+
+                  <h3 class="h3 card-title">Raise Hand To Save Those Pure Souls</h3>
+
+                  <div class="card-wrapper">
+
+                    <p class="card-wrapper-text">
+                      <span>Goal</span>
+
+                      <data class="green" value="34562">$34562</data>
+                    </p>
+
+                    <p class="card-wrapper-text">
+                      <span>Raise</span>
+
+                      <data class="yellow" value="562">$562</data>
+                    </p>
+
+                    <p class="card-wrapper-text">
+                      <span>To Go</span>
+
+                      <data class="cyan" value="864">$864</data>
+                    </p>
+
+                  </div>
+
+                  <button class="btn btn-secondary">
+                    <span>Donation</span>
+
+                    <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+                  </button>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="donate-card">
+
+                <figure class="card-banner">
+                  <img src="./assets/africa.jpg" width="520" height="325" loading="lazy" alt="Elephant"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="progress-wrapper">
+                    <p class="progress-text">
+                      <span>Raised</span>
+
+                      <data value="256">$256</data>
+                    </p>
+
+                    <data class="progress-value" value="83">83%</data>
+                  </div>
+
+                  <div class="progress-box">
+                    <div class="progress"></div>
+                  </div>
+
+                  <h3 class="h3 card-title">Raise Hand To Save Those Angels</h3>
+
+                  <div class="card-wrapper">
+
+                    <p class="card-wrapper-text">
+                      <span>Goal</span>
+
+                      <data class="green" value="34562">$34562</data>
+                    </p>
+
+                    <p class="card-wrapper-text">
+                      <span>Raise</span>
+
+                      <data class="yellow" value="562">$562</data>
+                    </p>
+
+                    <p class="card-wrapper-text">
+                      <span>To Go</span>
+
+                      <data class="cyan" value="864">$864</data>
+                    </p>
+
+                  </div>
+
+                  <button class="btn btn-secondary">
+                    <span>Donation</span>
+
+                    <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+                  </button>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #TESTIMONIALS
+      -->
+
+      <section class="testi">
+
+        <div class="testi-content">
+
+          <p class="section-subtitle">
+            
+
+            <span>Our Testimonials</span>
+          </p>
+
+          <h2 class="h2 section-title">
+            What People Say About <strong>Our Organization</strong>
+          </h2>
+
+          <div class="testi-card">
+
+            <figure class="card-avatar">
+              <img src="./assets/elonmusk.jpg" width="60" height="60" loading="lazy" alt="David S. Neuman">
+            </figure>
+
+            <div>
+              <blockquote class="testi-text">
+                I'm truly impressed by the tremendous work of this refugee aid organization. Their dedication and compassion in providing support and resources to those who have been displaced is truly admirable. As a businessman, I stand behind their efforts to help refugees rebuild their lives and contribute to society. Their impact is invaluable, and I am proud to support such a noble cause.
+              </blockquote>
+
+              <h3 class="testi-name">Elon Musk</h3>
+
+              <p class="testi-title">CEO</p>
+            </div>
+
+          </div>
+
+        </div>
+
+        <figure class="testi-banner">
+          <img src="./assets/side.jpg" width="960" height="846" loading="lazy" alt="Rhinoceros"
+            class="img-cover">
+        </figure>
+
+      </section>
+
+
+
+
+
+
+  <
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="main.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
 </body>
+
 </html>
